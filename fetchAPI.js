@@ -15,7 +15,7 @@ fetch('https://jsonplaceholder.typicode.com/todos').then((response) => {
 //___________ example 2
 
 
-fetch('http://puzzle.mead.io/puzzle?wordCount=2').then((response) => {
+fetch('https://puzzle.mead.io/puzzle?wordCount=2').then((response) => {
   if (response.status === 200){
       return response.json();
   } else {
